@@ -175,6 +175,18 @@ body {
     }
 }
 
+@media screen and (max-width: 375px) {
+    .dark-container {
+        margin-left: 70px;
+    }
+    .dark-container .image {
+        padding-left: 20px;
+    }
+    .white-container {
+        padding: 20px;
+    }
+}
+
 @media screen and (max-width: 360px) {
     .dark-container {
         margin-left: 120px;
