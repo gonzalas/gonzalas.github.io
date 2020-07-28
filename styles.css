@@ -174,3 +174,15 @@ body {
         padding-left: 40px;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .dark-container {
+        margin-left: 120px;
+    }
+    .dark-container .image {
+        padding-left: 0;
+    }
+    .white-container {
+        padding: 20px;
+    }
+}
