@@ -158,3 +158,19 @@ body {
 .white-container .language .certification {
     margin-bottom: 10px;
 }
+
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 474px) {
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+    .dark-container {
+        margin-left: 90px;
+    }
+    .dark-container .image {
+        padding-left: 40px;
+    }
+}
