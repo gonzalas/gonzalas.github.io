@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Assistant', sans-serif;
+    font-size: 14px;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #525659;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 40px auto;
+    box-shadow: 3px 3px 3px 3px #292929;
+}
+
+
+/*DARK CONTAINER ======================*/
+
+.dark-container .image img {
+    width: 170px;
+    height: 180px;
+    border-radius: 50%;
+    filter: saturate(130%);
+}
+
+.dark-container .image {
+    align-self: center;
+    margin: 20px auto;
+}
+
+.dark-container {
+    background-color: #444440;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.dark-container h2 {
+    color: #f2a93d;
+    margin-bottom: 10px;
+}
+
+.dark-container .contact,
+.dark-container .info,
+.dark-container .technologies {
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
+
+.dark-container .contact ul li {
+    display: flex;
+    align-items: center;
+    margin: 5px auto;
+}
+
+.dark-container .contact ul li i {
+    margin-right: 10px;
+}
+
+.dark-container .contact ul li a {
+    color: #e0e0e0;
+}
+
+.dark-container .info p {
+    margin-bottom: 5px;
+}
+
+.dark-container .technologies .tech {
+    margin-bottom: 10px;
+}
+
+.dark-container .technologies .tech p b {
+    opacity: 0.8;
+    letter-spacing: 1.5px;
+}
+
+
+/*WHITE CONTAINER ======================*/
+
+.white-container {
+    background-color: #fff;
+    color: #000000bd;
+    padding: 50px;
+}
+
+.title {
+    padding: auto 35px;
+}
+
+.title h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.title .space-bar {
+    width: 60px;
+    border-bottom-style: double;
+    border-color: #f2a93d;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.title #subtitle {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.white-container .experience,
+.white-container .education,
+.white-container .language {
+    margin-top: 50px;
+}
+
+.white-container .experience h2,
+.white-container .education h2,
+.white-container .language h2 {
+    margin-bottom: 10px;
+}
+
+.white-container .experience .work,
+.white-container .experience .work-other ul li {
+    margin-bottom: 10px;
+}
+
+.white-container .education .study {
+    margin-bottom: 10px;
+}
+
+.white-container .language .level {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.white-container .language .certification {
+    margin-bottom: 10px;
+}
